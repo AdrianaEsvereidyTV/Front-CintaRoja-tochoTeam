@@ -1,15 +1,23 @@
 import React from "react";
+import "../App.css";
+import './components.css'
 
 class Login extends React.Component {
   render() {
     return (
       <div className="container my-4">
         <div className="row">
-          <div className="col -md-6 col-sm-8 mx-auto">
-            <div className="mt -4">
+          <div className="col -md-4 col-sm-6 mx-auto">
+            <div className="mt-4">
+               <div className="mt-2">
+                  <img src="https://uc.uxpin.com/files/651295/644903/image-3ef990.png" className="mx-auto d-block img-fluid"/>
+               </div>
+              <h5 className="title">Iniciar sesión</h5>
               <form>
                 <div className="form-group">
-                  <label for="exampleInputEmail1">Correo electrónico</label>
+                  <label id="text" for="exampleInputEmail1">
+                    Correo electrónico
+                  </label>
                   <input
                     type="email"
                     className="form-control"
@@ -20,7 +28,9 @@ class Login extends React.Component {
                   />
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
+                  <label id="text" for="exampleInputPassword1">
+                    Password
+                  </label>
                   <input
                     type="password"
                     className="form-control"
@@ -32,7 +42,7 @@ class Login extends React.Component {
                 <button type="submit" className="btn btn-primary">
                   Iniciar sesión
                 </button>
-                <p class="text-center">
+                <p className="text-center">
                   <a href="/register">Regístrate aquí </a>
                 </p>
               </form>

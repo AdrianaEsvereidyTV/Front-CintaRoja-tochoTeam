@@ -2,13 +2,15 @@
      background-color: #242687 !important; 
      color: #fff !important;
 }
-   
-input #email {
-  margin: 2rem !important;
+.nav-link{
+  color: #fff !important;
+}
+label.text{
+  text-align: left !important;
 }
 
-input #password {
-  margin: 2rem !important;
+h5 {
+  padding: 1em;
 }
 
 
