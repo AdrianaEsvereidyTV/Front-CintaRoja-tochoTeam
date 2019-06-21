@@ -1,20 +1,19 @@
 import React from "react";
 import "../App.css";
-import "./components.css";
+import './components.css'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Login extends React.Component {
   render() {
     return (
-      <div className="container my-4">
+      <Router>
+        <div className="container my-4">
         <div className="row">
-          <div className="cyol -md-4 col-sm-6 mx-auto">
+          <div className="col -md-4 col-sm-6 mx-auto">
             <div className="mt-4">
-              <div className="mt-2">
-                <img
-                  src="https://uc.uxpin.com/files/651295/644903/image-3ef990.png"
-                  className="mx-auto d-block img-fluid"
-                />
-              </div>
+               <div className="mt-2">
+                  <img src="https://uc.uxpin.com/files/651295/644903/image-3ef990.png" className="mx-auto d-block img-fluid"/>
+               </div>
               <h5 className="title">Iniciar sesión</h5>
               <form>
                 <div className="form-group">
@@ -46,18 +45,14 @@ class Login extends React.Component {
                   Iniciar sesión
                 </button>
                 <p className="text-center">
-                  <a href="/register">Regístrate aquí </a>
+                  <Link to="/Form">Regístrate aquí </Link>
                 </p>
               </form>
-              <p class="mt-4 text-center">
-                <button id="signin-google" class="btn btn-danger" type="submit" onClick="this.login">
-                  <i class="fab fa-google" />
-                </button>
-              </p>
             </div>
           </div>
         </div>
       </div>
+      </Router>
     );
   }
 }

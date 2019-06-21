@@ -1,13 +1,13 @@
 import React from 'react';
-//react router dom
+import { Link } from "react-router-dom";
 
-class Form extends React.Component {
+class SignUp extends React.Component {
     render() {
         return (
             <div class="container">
 
-                <div class="row">
-                    <div class="col-4 col-md-6"></div>
+                <div class="row SignUpContainer">
+                    <div class="col"></div>
                     <div class="col-8 col-md-6">
                         <h2>Registro de Equipo</h2>
                         <form>
@@ -100,7 +100,7 @@ class Form extends React.Component {
 
 
                     </div>
-
+                    <div class="col"></div>
                 </div>
 
             </div>
@@ -109,4 +109,4 @@ class Form extends React.Component {
     }
 }
 
-export default Form;
+export default SignUp;
