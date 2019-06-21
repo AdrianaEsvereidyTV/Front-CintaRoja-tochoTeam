@@ -10,11 +10,82 @@ label.text, label{
   display: inherit;
 }
 
+h2 {
+  color: #242687;
+  font-weight: 600;
+  text-align: left;
+}
+
 h5 {
   padding: 2em 0 1em;
   text-align: left;
 }
 
-.SignUpContainer {
-  padding-top: 65px;
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 0px solid #dee2e6;
+  font-weight: 100;
+}
+
+.table th, 
+.table td {
+  vertical-align: bottom;
+  border-top: 0px solid #dee2e6;
+}
+
+.paddingTop {
+  padding-top: 3em;
+}
+
+.btn-primary,
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #242687;
+  border: 0px;
+  border-radius: 50px;
+  min-width: 182px;
+  margin: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #1C1870;
+}
+
+.ramaCard-titulos {
+  font-size: 14px;
+  color: #242687;
+  font-style: italic;
+}
+
+.ramaCard-name {
+  font-size: 1.5em;
+  text-align: left;
+  font-weight: 800;
+}
+
+.card-deck .card {
+  border: 0px;
+}
+
+.card-header {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.ramaCard-add {
+  padding-top: 5px;
+}
+
+.ramaCard-add a {
+  font-size: 14px;
+  color: #242687;
+}
+
+.ramaCard-add a:hover {
+  color: #04033B;
+  text-decoration: none;
 }

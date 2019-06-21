@@ -1,6 +1,11 @@
 import React from "react";
 import "../App.css";
+<<<<<<< HEAD
 import "./components.css";
+=======
+import './components.css'
+import NavBar from './NavBar';
+>>>>>>> c71c892a3555c5ba035edc7017d86f53487926ea
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import firebase from "firebase";
 import firebaseApp from "../config/firebase";
@@ -54,6 +59,7 @@ correo y contraseña */
   render() {
     return (
       <Router>
+<<<<<<< HEAD
         <div className="login">
           <div className="container my-4">
             <div className="row">
@@ -118,6 +124,38 @@ correo y contraseña */
                       <i className="fab fa-google" />
                     </button>
                   </p>
+=======
+        <NavBar />
+        <div className="container-fluid my-4">
+        <div className="row">
+          <div className="col -md-4 col-sm-6 mx-auto">
+            <div className="mt-4">
+               <div className="mt-2">
+                  <img src="https://uc.uxpin.com/files/651295/644903/image-3ef990.png" className="mx-auto d-block img-fluid"/>
+               </div>
+              <h5 className="title">Iniciar sesión</h5>
+              <form>
+                <div className="form-group">
+                  <label id="text" for="exampleInputEmail1">Correo electrónico</label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label id="text" for="exampleInputPassword1">Password</label>
+                  <input
+                    type="password"
+                    className="form-control"
+                    id="exampleInputPassword1"
+                    placeholder="Password"
+                    required
+                  />
+>>>>>>> c71c892a3555c5ba035edc7017d86f53487926ea
                 </div>
               </div>
             </div>
