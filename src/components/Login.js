@@ -53,4 +53,11 @@ class Login extends React.Component {
     );
   }
 }
+
+// componentDidMount() {
+//   axios.get(`${HOST}/Login`).then((response) => {
+//     console.log(response);
+//   });
+// }
+
 export default Login;
