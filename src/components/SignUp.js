@@ -92,7 +92,9 @@ class SignUp extends React.Component {
 
                                     </select>
                                 </div>
-                                <button type="submit" className="btn btn-primary">Enviar</button>
+                                <button type="submit" className="btn btn-primary">Enviar
+                                <Link to="/equipos"></Link>
+                                </button>
 
                             </div>
 

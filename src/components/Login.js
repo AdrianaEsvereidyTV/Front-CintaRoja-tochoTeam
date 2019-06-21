@@ -104,7 +104,7 @@ correo y contraseña */
                     Iniciar sesión
                   </button>
                   <p className="text-center">
-                    <Link to="/Form">Regístrate aquí </Link>
+                    <Link to="/signup">Regístrate aquí </Link>
                   </p>
                 </form>
                 <p className="mt-4 text-center">
