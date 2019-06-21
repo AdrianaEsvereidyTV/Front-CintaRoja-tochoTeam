@@ -7,7 +7,7 @@ class Login extends React.Component {
     return (
       <div className="container my-4">
         <div className="row">
-          <div className="col -md-4 col-sm-6 mx-auto">
+          <div className="cyol -md-4 col-sm-6 mx-auto">
             <div className="mt-4">
                <div className="mt-2">
                   <img src="https://uc.uxpin.com/files/651295/644903/image-3ef990.png" className="mx-auto d-block img-fluid"/>
