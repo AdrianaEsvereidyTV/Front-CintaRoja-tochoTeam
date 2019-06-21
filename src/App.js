@@ -4,25 +4,20 @@ import 'bootstrap/dist/js/bootstrap.js';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import NavBar from './components/NavBar';
-import Login from './components/Login'
-import SignUp from './components/SignUp'
+import Login from './components/Login';
+import SignUp from './components/SignUp';
+import Equipos from './components/Equipos';
 
 function App() {
   return (
     <div className="App">
-      {/* <Router> */}
-
-      <NavBar />
-      {/* <Route exact path="/login" component={Login} />
+      <Router>
+      <Route exact path="/login" component={Login} />
       <Route exact path="/signup" component={SignUp} />
       <Route exact path="/equipos" component={Equipos} />
-      <Route exact path="/calendario" component={Calendario} /> */}
-
-      {/* <Login /> */}
-      <SignUp />
-
-      {/* </Router> */}
-  
+      {/* <Route exact path="/calendario" component={Calendario} /> */}
+      {/* <Login/> */}
+      </Router>
     </div>
   );
 }

@@ -1,13 +1,15 @@
 import React from "react";
 import "../App.css";
 import './components.css'
+import NavBar from './NavBar';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Login extends React.Component {
   render() {
     return (
       <Router>
-        <div className="container my-4">
+        <NavBar />
+        <div className="container-fluid my-4">
         <div className="row">
           <div className="col -md-4 col-sm-6 mx-auto">
             <div className="mt-4">
@@ -17,9 +19,7 @@ class Login extends React.Component {
               <h5 className="title">Iniciar sesión</h5>
               <form>
                 <div className="form-group">
-                  <label id="text" for="exampleInputEmail1">
-                    Correo electrónico
-                  </label>
+                  <label id="text" for="exampleInputEmail1">Correo electrónico</label>
                   <input
                     type="email"
                     className="form-control"
@@ -30,9 +30,7 @@ class Login extends React.Component {
                   />
                 </div>
                 <div class="form-group">
-                  <label id="text" for="exampleInputPassword1">
-                    Password
-                  </label>
+                  <label id="text" for="exampleInputPassword1">Password</label>
                   <input
                     type="password"
                     className="form-control"
