@@ -31,7 +31,7 @@ correo y contraseña */
         console.log(error);
       });
   }
-
+  
   loginGoogle() {
     const provider = new firebase.auth.GoogleAuthProvider();
     firebaseApp
