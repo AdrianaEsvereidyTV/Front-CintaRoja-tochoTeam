@@ -1,11 +1,13 @@
 import React from "react";
 import "../App.css";
 import './components.css'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Login extends React.Component {
   render() {
     return (
-      <div className="container my-4">
+      <Router>
+        <div className="container my-4">
         <div className="row">
           <div className="col -md-4 col-sm-6 mx-auto">
             <div className="mt-4">
@@ -43,13 +45,14 @@ class Login extends React.Component {
                   Iniciar sesión
                 </button>
                 <p className="text-center">
-                  <a href="/register">Regístrate aquí </a>
+                  <Link to="/Form">Regístrate aquí </Link>
                 </p>
               </form>
             </div>
           </div>
         </div>
       </div>
+      </Router>
     );
   }
 }

@@ -5,12 +5,16 @@
 .nav-link{
   color: #fff !important;
 }
-label.text{
+label.text, label{
   text-align: left !important;
+  display: inherit;
 }
 
 h5 {
-  padding: 1em;
+  padding: 2em 0 1em;
+  text-align: left;
 }
 
-
+.SignUpContainer {
+  padding-top: 65px;
+}
