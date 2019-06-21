@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
 import Equipos from './components/Equipos';
+import Calendario from './components/Calendario';
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
       <Route exact path="/login" component={Login} />
       <Route exact path="/signup" component={SignUp} />
       <Route exact path="/equipos" component={Equipos} />
-      {/* <Route exact path="/calendario" component={Calendario} /> */}
-      {/* <Login/> */}
+      <Route exact path="/calendario" component={Calendario} />
+      
       </Router>
     </div>
   );

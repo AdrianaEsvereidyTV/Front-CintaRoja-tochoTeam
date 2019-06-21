@@ -89,3 +89,15 @@ thead {
   color: #04033B;
   text-decoration: none;
 }
+
+.logoNavBar {
+  max-height: 30px;
+}
+
+.campo, .equipoLocal, .equipoVisitante, .versus,
+.nombreEquipoLocal,
+.nombreEquipoVisitante,
+.logoEquipoLocal,
+.logoEquipoVisitante {
+  display: inline-flex;
+}
